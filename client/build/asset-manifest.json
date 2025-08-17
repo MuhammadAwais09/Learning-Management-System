@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/free/static/css/main.e1f2bb6b.css",
+    "main.js": "/free/static/js/main.c7180425.js",
+    "static/js/357.e1543b80.chunk.js": "/free/static/js/357.e1543b80.chunk.js",
+    "static/js/943.2f50bb3f.chunk.js": "/free/static/js/943.2f50bb3f.chunk.js",
+    "static/js/429.0e4b628b.chunk.js": "/free/static/js/429.0e4b628b.chunk.js",
+    "static/js/924.66edf2b8.chunk.js": "/free/static/js/924.66edf2b8.chunk.js",
+    "static/js/477.bbf4a906.chunk.js": "/free/static/js/477.bbf4a906.chunk.js",
+    "static/js/912.194f982e.chunk.js": "/free/static/js/912.194f982e.chunk.js",
+    "static/js/282.ef8b5bb2.chunk.js": "/free/static/js/282.ef8b5bb2.chunk.js",
+    "static/js/776.0e3ceea3.chunk.js": "/free/static/js/776.0e3ceea3.chunk.js",
+    "static/js/802.af4337e8.chunk.js": "/free/static/js/802.af4337e8.chunk.js",
+    "static/js/522.38a07947.chunk.js": "/free/static/js/522.38a07947.chunk.js",
+    "static/js/881.39d13813.chunk.js": "/free/static/js/881.39d13813.chunk.js",
+    "static/js/374.e811494f.chunk.js": "/free/static/js/374.e811494f.chunk.js",
+    "static/js/795.01e19709.chunk.js": "/free/static/js/795.01e19709.chunk.js",
+    "static/js/843.96f11401.chunk.js": "/free/static/js/843.96f11401.chunk.js",
+    "static/js/948.35b0150a.chunk.js": "/free/static/js/948.35b0150a.chunk.js",
+    "static/js/22.45d3254f.chunk.js": "/free/static/js/22.45d3254f.chunk.js",
+    "static/js/380.696cda7c.chunk.js": "/free/static/js/380.696cda7c.chunk.js",
+    "static/js/12.09dac35a.chunk.js": "/free/static/js/12.09dac35a.chunk.js",
+    "static/media/logo.png": "/free/static/media/logo.7a6d928f985ae806fa99.png",
+    "static/media/avatar-1.png": "/free/static/media/avatar-1.ef8a6242d48e9c1bb886.jpg",
+    "index.html": "/free/index.html",
+    "static/media/google.svg": "/free/static/media/google.a025da87054139fc16b3b9b7ed0a2724.svg",
+    "static/media/twitter.svg": "/free/static/media/twitter.3e49f64208e00f377e9c3dbeaed797ce.svg",
+    "static/media/facebook.svg": "/free/static/media/facebook.eb4c069b746811e7b3a7ddf099989a69.svg"
+  },
+  "entrypoints": [
+    "static/css/main.e1f2bb6b.css",
+    "static/js/main.c7180425.js"
+  ]
+}

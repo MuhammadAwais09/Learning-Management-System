@@ -1,0 +1,256 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hi", "Hello", "Hey", "Good day", "What's up", "Hiya"],
+      "responses": [
+        {
+          "role": "student",
+          "response": "Hey there, student! Welcome to Learnify's AI Assistant! 📚 Ready to check your assignments or grades?"
+        },
+        {
+          "role": "teacher",
+          "response": "Hello, teacher! I’m Learnify’s AI here to help with course management or grading. What’s up? 📖"
+        }
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "Goodbye", "See you later", "Take care"],
+      "responses": [
+        {
+          "role": "student",
+          "response": "Catch you later, student! Keep studying, and I’m here for any Learnify help! 📚"
+        },
+        {
+          "role": "teacher",
+          "response": "Goodbye, teacher! Stay awesome, and come back for course or grading support! 😄"
+        }
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome"],
+      "responses": [
+        {
+          "role": "student",
+          "response": "You’re welcome, student! Let’s keep rocking your learning on Learnify! 😄"
+        },
+        {
+          "role": "teacher",
+          "response": "No problem, teacher! Ready to assist with more course or grading tasks? 📖"
+        }
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "general_question",
+      "patterns": ["What can you do?", "How can you help?", "What is this app?", "Tell me about Learnify"],
+      "responses": [
+        {
+          "role": "student",
+          "response": "I’m Learnify’s AI for students! I can help find courses, check assignments, view grades, or fix tech issues. What’s on your mind? 😊"
+        },
+        {
+          "role": "teacher",
+          "response": "I’m Learnify’s AI for teachers! I can assist with managing courses, grading assignments, or sharing resources. What do you need? 📖"
+        }
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "noanswer",
+      "patterns": [],
+      "responses": [
+        {
+          "role": "student",
+          "response": "Hmm, not sure what you mean, student! 😅 Try asking about courses or assignments, and I’ll sort you out!"
+        },
+        {
+          "role": "teacher",
+          "response": "Oops, I didn’t catch that, teacher! Tell me about your course or grading needs, and I’ll help! 😄"
+        }
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "student_course_info",
+      "patterns": ["Show me my courses", "What courses am I enrolled in?", "List my classes", "Course details"],
+      "responses": [
+        {
+          "role": "student",
+          "response": "Let’s check your courses! 📚 Go to the 'My Courses' section on Learnify’s home screen to see all your enrolled classes. Need help with a specific course?"
+        }
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "student_assignments",
+      "patterns": ["Show my assignments", "What’s due?", "Assignment deadlines", "Pending assignments"],
+      "responses": [
+        {
+          "role": "student",
+          "response": "Got assignments on your mind? 📝 Check the 'Assignments' section for what’s due. Need help with a specific task?"
+        }
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "student_grades",
+      "patterns": ["Check my grades", "What are my marks?", "Show my scores", "Grade details"],
+      "responses": [
+        {
+          "role": "student",
+          "response": "Curious about your grades? 📊 Head to the 'Grades' section to see your scores. Want details for a specific course?"
+        }
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "student_schedule",
+      "patterns": ["What’s my schedule?", "Show my timetable", "Class schedule", "When’s my next class?"],
+      "responses": [
+        {
+          "role": "student",
+          "response": "Time to plan your day! 🕒 Check the 'Schedule' section for your class timetable. Want to know your next class?"
+        }
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "student_submission_help",
+      "patterns": ["How to submit an assignment?", "Submit my homework", "Assignment submission", "How do I turn in work?"],
+      "responses": [
+        {
+          "role": "student",
+          "response": "Submitting is easy! 📤 Go to the 'Assignments' section, select your task, and click 'Submit'. Need a step-by-step guide?"
+        }
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "teacher_course_management",
+      "patterns": ["Manage my courses", "Update course details", "Add course content", "Edit my class"],
+      "responses": [
+        {
+          "role": "teacher",
+          "response": "Ready to manage your courses? 📚 Go to the 'My Courses' section in the teacher dashboard to edit content or details. Need help with a specific course?"
+        }
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "teacher_grading",
+      "patterns": ["How to grade assignments?", "Check student submissions", "Grade homework", "Assignment grading"],
+      "responses": [
+        {
+          "role": "teacher",
+          "response": "Time to grade! 📝 Head to the 'Assignments' section in your course, select a submission, and enter grades. Want a guide for the process?"
+        }
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "teacher_student_progress",
+      "patterns": ["Check student progress", "Student grades", "View student performance", "Track my students"],
+      "responses": [
+        {
+          "role": "teacher",
+          "response": "Let’s see how your students are doing! 📊 Go to the 'Grades' section in your course to view performance. Need details for a specific student?"
+        }
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "teacher_schedule",
+      "patterns": ["What’s my teaching schedule?", "Show my timetable", "Class schedule", "When’s my next class?"],
+      "responses": [
+        {
+          "role": "teacher",
+          "response": "Plan your teaching day! 🕒 Check the 'Schedule' section in the teacher dashboard for your classes. Want to know your next session?"
+        }
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "technical_support",
+      "patterns": ["I need technical help", "App not working", "Login issues", "Technical problem"],
+      "responses": [
+        {
+          "role": "student",
+          "response": "Tech trouble, student? 😕 Try logging out and back in, or check the 'Help' section. Want me to guide you to support?"
+        },
+        {
+          "role": "teacher",
+          "response": "Tech issues, teacher? 😕 Try logging out and back in, or visit the 'Help' section in the dashboard. Need troubleshooting tips?"
+        }
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "instructor_contact",
+      "patterns": ["Contact my teacher", "Message instructor", "How to reach my professor?", "Talk to teacher"],
+      "responses": [
+        {
+          "role": "student",
+          "response": "Need to chat with your teacher? 📩 Go to the 'Courses' section, select your course, and use 'Contact Instructor'. Need help drafting a message?"
+        }
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "student_contact",
+      "patterns": ["Contact my students", "Message students", "How to reach my students?", "Talk to students"],
+      "responses": [
+        {
+          "role": "teacher",
+          "response": "Want to reach your students? 📩 Go to the 'Courses' section in your dashboard and use the messaging feature. Need help sending a message?"
+        }
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "resources",
+      "patterns": ["Study resources", "Course materials", "Where are my notes?", "Learning resources"],
+      "responses": [
+        {
+          "role": "student",
+          "response": "Looking for study materials? 📖 Check the 'Resources' section in your course page for notes or videos. Need something specific?"
+        },
+        {
+          "role": "teacher",
+          "response": "Need to manage course materials? 📖 Go to the 'Resources' section in your course to upload or edit content. Want assistance?"
+        }
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "profile_settings",
+      "patterns": ["Update my profile", "Change my settings", "Edit profile", "Account settings"],
+      "responses": [
+        {
+          "role": "student",
+          "response": "Want to update your profile, student? 😎 Go to the 'Settings' section to edit your name or bio. Need a guide?"
+        },
+        {
+          "role": "teacher",
+          "response": "Tweak your teacher profile? 😄 Visit the 'Settings' tab in the dashboard to update your details. Need help?"
+        }
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "course_enrollment",
+      "patterns": ["How to enroll in a course?", "Join a class", "Add a course", "Enroll in new course"],
+      "responses": [
+        {
+          "role": "student",
+          "response": "Ready to join a course? 🎉 Go to the 'Course Catalog' and click 'Enroll'. Need help picking a class?"
+        }
+      ],
+      "context": [""]
+    }
+  ]
+}
